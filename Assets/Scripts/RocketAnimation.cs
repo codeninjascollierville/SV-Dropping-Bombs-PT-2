@@ -14,7 +14,7 @@ public class RocketAnimation : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
 
