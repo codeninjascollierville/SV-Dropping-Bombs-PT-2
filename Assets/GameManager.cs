@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
 
     private Spawner spawner;
+    public GameObject title;
 
     void Awake()
     {
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         spawner.active = false;
+        title.SetActive(true);
     }
 
     // Update is called once per frame
