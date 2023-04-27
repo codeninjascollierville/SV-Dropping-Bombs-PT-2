@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 
     private Spawner spawner;
     public GameObject title;
-
+private bool gameStarted = false;
     void Awake()
     {
         spawner = GameObject.Find("Spawner").GetComponent<Spawner>();
@@ -22,11 +22,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.anyKeyDown)
         {
             spawner.active = true;
         }
-
+        
 
     }
 }
+
