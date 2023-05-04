@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     private Spawner spawner;
     public GameObject title;
+
 private bool gameStarted = false;
     void Awake()
     {
@@ -26,6 +27,7 @@ private bool gameStarted = false;
         if (Input.anyKeyDown)
         {
             spawner.active = true;
+            title.SetActive(false);
         }
         
 
