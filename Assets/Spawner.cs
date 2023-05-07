@@ -9,6 +9,7 @@ public class Spawner : MonoBehaviour
     public bool active = false;
     public Vector2 delayRange = new Vector2(1, 2);
 
+    // CHANGE
 
     private Vector3 screenBounds;
     private float objectWidth;
