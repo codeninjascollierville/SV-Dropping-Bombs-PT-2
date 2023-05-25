@@ -1093,6 +1093,9 @@ MonoBehaviour:
   playerPrefab: {fileID: 1293495186871882, guid: 82169fb5eac75114e9dae4d2dd916e6f,
     type: 3}
   splash: {fileID: 1881854426}
+  scoreSystem: {fileID: 1892862383}
+  scoreText: {fileID: 1096346393}
+  pointsWorth: 1
 --- !u!4 &1511916582
 Transform:
   m_ObjectHideFlags: 0
